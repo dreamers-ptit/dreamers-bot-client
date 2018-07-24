@@ -11,7 +11,11 @@ import { ControlSidebarComponent } from './control-sidebar/control-sidebar.compo
 import { FooterComponent } from './footer/footer.component';
 
 import { HomeComponent } from './home/home.component';
-import { DasboardComponent } from './dasboard/dasboard.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { TradeHistoryComponent } from './trade/trade-history/trade-history.component';
+import { TradingComponent } from './trade/trading/trading.component';
+import { HoldingComponent } from './trade/holding/holding.component';
+import { SettingsComponent } from './settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { DasboardComponent } from './dasboard/dasboard.component';
     FooterComponent,
 
     HomeComponent,
-    DasboardComponent
+    DashboardComponent,
+    TradingComponent,
+    HoldingComponent,
+    TradeHistoryComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,
